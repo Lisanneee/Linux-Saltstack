@@ -1,7 +1,7 @@
 base:
   '*':
     - common
-  'Minion*':
-    - nettools
+  '*minion*':
+    - snmp
 
 
