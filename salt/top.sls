@@ -1,7 +1,8 @@
 base:
-  '*':
-    - common
   '*minion*':
     - snmp
-
+  'wordpress-server':
+    - wordpress
+  'docker-server':
+    - docker
 
